@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"> -->
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive landing page</title>
+    </head>
+    <body>
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16px" height="16px" x="0" y="0" viewBox="0 0 466.205 466.205" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path d="M416.193,170.894c-0.052-0.053-0.105-0.105-0.158-0.158L253.049,7.536c-1.295-1.288-2.726-2.432-4.267-3.413l-4.693-2.56    l-3.2-1.067h-2.347c-3.596-0.661-7.283-0.661-10.88,0h-2.133h-2.56l-3.627,1.92c-2.021,1.098-3.887,2.461-5.547,4.053    L50.169,170.736c-10.957,10.87-11.028,28.565-0.158,39.522c0.052,0.053,0.105,0.105,0.158,0.158    c11.045,10.538,28.421,10.538,39.467,0l97.493-97.28c4.206-4.124,10.96-4.058,15.084,0.149c1.919,1.957,3.011,4.577,3.049,7.318    v317.653c-0.001,15.435,12.51,27.948,27.945,27.949c15.435,0.001,27.947-12.51,27.949-27.945c0-0.001,0-0.003,0-0.004V120.603    c0.083-5.89,4.925-10.599,10.815-10.516c2.74,0.039,5.361,1.13,7.318,3.049l97.067,97.28c11.073,10.674,28.607,10.674,39.68,0    C426.993,199.546,427.064,181.851,416.193,170.894z" fill="#000000" data-original="#000000" class=""></path>
+                    </g>
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                </g>
+            </svg>
+        </a>
+        
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Christmas Gift</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#share" class="nav__link">Share</a></li>
+                        <li class="nav__item"><a href="#decoration" class="nav__link">Decorations</a></li>
+                        <li class="nav__item"><a href="#accessory" class="nav__link">Accessory</a></li>
+
+                        <li style="padding-top: 5px; margin-left: 15px; cursor: pointer;">
+                             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="30" height="30" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" id="theme-button"><g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M256,0c-8.284,0-15,6.716-15,15v32c0,8.284,6.716,15,15,15s15-6.716,15-15V15C271,6.716,264.284,0,256,0z" fill="#000000" data-original="#000000" class=""></path>
+                                    </g>
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M256,450c-8.284,0-15,6.716-15,15v32c0,8.284,6.716,15,15,15s15-6.716,15-15v-32C271,456.716,264.284,450,256,450z" fill="#000000" data-original="#000000" class=""></path>
+                                    </g>
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M119.529,98.315L96.901,75.687c-5.858-5.857-15.356-5.857-21.213,0c-5.858,5.858-5.858,15.356,0,21.213l22.628,22.628    c2.928,2.929,6.767,4.394,10.606,4.394s7.678-1.465,10.607-4.394C125.387,113.67,125.387,104.172,119.529,98.315z" fill="#000000" data-original="#000000" class=""></path>
+                                    </g>
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M436.313,415.099l-22.628-22.628c-5.858-5.857-15.356-5.857-21.213,0c-5.858,5.858-5.858,15.356,0,21.213l22.628,22.628    c2.928,2.929,6.767,4.394,10.606,4.394c3.839,0,7.678-1.465,10.607-4.394C442.171,430.454,442.171,420.956,436.313,415.099z" fill="#000000" data-original="#000000" class=""></path>
+                                    </g>
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M47,241H15c-8.284,0-15,6.716-15,15s6.716,15,15,15h32c8.284,0,15-6.716,15-15S55.284,241,47,241z" fill="#000000" data-original="#000000" class=""></path>
+                                    </g>
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M497,241h-32c-8.284,0-15,6.716-15,15s6.716,15,15,15h32c8.284,0,15-6.716,15-15S505.284,241,497,241z" fill="#000000" data-original="#000000" class=""></path>
+                                    </g>
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M119.529,392.471c-5.858-5.857-15.356-5.857-21.213,0l-22.628,22.628c-5.858,5.858-5.858,15.356,0,21.213    c2.928,2.929,6.767,4.394,10.606,4.394s7.678-1.465,10.606-4.393l22.629-22.629C125.387,407.826,125.387,398.328,119.529,392.471z    " fill="#000000" data-original="#000000" class=""></path>
+                                    </g>
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M436.313,75.688c-5.858-5.857-15.356-5.857-21.213,0l-22.628,22.627c-5.858,5.858-5.858,15.356,0,21.213    c2.928,2.929,6.767,4.394,10.606,4.394s7.678-1.465,10.607-4.393l22.628-22.628C442.171,91.043,442.171,81.545,436.313,75.688z" fill="#000000" data-original="#000000" class=""></path>
+                                    </g>
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M256,97c-87.673,0-159,71.327-159,159s71.327,159,159,159s159-71.327,159-159S343.673,97,256,97z M271,384.123V127.877    c64.089,7.456,114,62.066,114,128.123S335.089,376.667,271,384.123z" fill="#000000" data-original="#000000" class=""></path>
+                                    </g>
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                </g>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16px" height="16px" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path xmlns="http://www.w3.org/2000/svg" d="m0 149.332031c0 82.347657 67.007812 149.335938 149.332031 149.335938h213.335938c82.324219 0 149.332031-66.988281 149.332031-149.335938 0-82.34375-67.007812-149.332031-149.332031-149.332031h-213.335938c-82.324219 0-149.332031 66.988281-149.332031 149.332031zm277.332031 0c0-47.058593 38.273438-85.332031 85.335938-85.332031 47.058593 0 85.332031 38.273438 85.332031 85.332031 0 47.0625-38.273438 85.335938-85.332031 85.335938-47.0625 0-85.335938-38.273438-85.335938-85.335938zm0 0" fill="#000000" data-original="#000000" class=""></path></g></svg>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__img">
+                        <img src="assets/img/home.png" alt="">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Send A Gift For Christmas</h1>
+                        <p class="home__description">In these end of the year holidays send a gift to your loved one and share the happiness at Christmas.</p>
+                        <a href="#" class="button">Get Started</a>
+                    </div>   
+                </div>
+            </section>
+
+            <!--========== SHARE ==========-->
+            <section class="share section bd-container" id="share">
+                <div class="share__container bd-grid">
+                    <div class="share__data">
+                        <h2 class="section-title-center">Sharing Is The Best Gift <br> You Can Give</h2>
+                        <p class="share__description">Sharing these holidays is the best gift you can give, give a present or share your love with the people you love the most and celebrate with great happiness.</p>
+                        <a href="#" class="button">Send a Gift</a>
+                    </div>
+
+                    <div class="share__img">
+                        <img src="assets/img/shared.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--========== DECORATION ==========-->
+            <section class="decoration section bd-container" id="decoration">
+                <h2 class="section-title">Give Christmas Decorations <br> For Your Home</h2>
+                <div class="decoration__container bd-grid">
+                    <div class="decoration__data">
+                        <img src="assets/img/decoration1.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Christmas Bells</h3>
+                        <a href="#" class="button button-link">Go Shopping</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="assets/img/decoration2.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Christmas Candies</h3>
+                        <a href="#" class="button button-link">Go Shopping</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="assets/img/decoration3.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Christmas Trees</h3>
+                        <a href="#" class="button button-link">Go Shopping</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== ACCESSORIES ==========-->
+            <section class="accessory section bd-container" id="accessory">
+                <h2 class="section-title">New Christmas <br> Accessories</h2>
+
+                <div class="accessory__container bd-grid">
+                    <div class="accessory__content">
+                        <img src="assets/img/accessory1.png" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Snow Globe</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$9.45</span>
+                        <a href="#" class="button accessory__button">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="22px" height="22px" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M474.644,74.27C449.391,45.616,414.358,29.836,376,29.836c-53.948,0-88.103,32.22-107.255,59.25    c-4.969,7.014-9.196,14.047-12.745,20.665c-3.549-6.618-7.775-13.651-12.745-20.665c-19.152-27.03-53.307-59.25-107.255-59.25    c-38.358,0-73.391,15.781-98.645,44.435C13.267,101.605,0,138.213,0,177.351c0,42.603,16.633,82.228,52.345,124.7    c31.917,37.96,77.834,77.088,131.005,122.397c19.813,16.884,40.302,34.344,62.115,53.429l0.655,0.574    c2.828,2.476,6.354,3.713,9.88,3.713s7.052-1.238,9.88-3.713l0.655-0.574c21.813-19.085,42.302-36.544,62.118-53.431    c53.168-45.306,99.085-84.434,131.002-122.395C495.367,259.578,512,219.954,512,177.351    C512,138.213,498.733,101.605,474.644,74.27z M309.193,401.614c-17.08,14.554-34.658,29.533-53.193,45.646    c-18.534-16.111-36.113-31.091-53.196-45.648C98.745,312.939,30,254.358,30,177.351c0-31.83,10.605-61.394,29.862-83.245    C79.34,72.007,106.379,59.836,136,59.836c41.129,0,67.716,25.338,82.776,46.594c13.509,19.064,20.558,38.282,22.962,45.659    c2.011,6.175,7.768,10.354,14.262,10.354c6.494,0,12.251-4.179,14.262-10.354c2.404-7.377,9.453-26.595,22.962-45.66    c15.06-21.255,41.647-46.593,82.776-46.593c29.621,0,56.66,12.171,76.137,34.27C471.395,115.957,482,145.521,482,177.351    C482,254.358,413.255,312.939,309.193,401.614z" fill="#000000" data-original="#000000" class=""></path>
+                                    </g>
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="assets/img/accessory2.png" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Candy</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$2.52</span>
+                        <a href="#" class="button accessory__button">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="22px" height="22px" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M474.644,74.27C449.391,45.616,414.358,29.836,376,29.836c-53.948,0-88.103,32.22-107.255,59.25    c-4.969,7.014-9.196,14.047-12.745,20.665c-3.549-6.618-7.775-13.651-12.745-20.665c-19.152-27.03-53.307-59.25-107.255-59.25    c-38.358,0-73.391,15.781-98.645,44.435C13.267,101.605,0,138.213,0,177.351c0,42.603,16.633,82.228,52.345,124.7    c31.917,37.96,77.834,77.088,131.005,122.397c19.813,16.884,40.302,34.344,62.115,53.429l0.655,0.574    c2.828,2.476,6.354,3.713,9.88,3.713s7.052-1.238,9.88-3.713l0.655-0.574c21.813-19.085,42.302-36.544,62.118-53.431    c53.168-45.306,99.085-84.434,131.002-122.395C495.367,259.578,512,219.954,512,177.351    C512,138.213,498.733,101.605,474.644,74.27z M309.193,401.614c-17.08,14.554-34.658,29.533-53.193,45.646    c-18.534-16.111-36.113-31.091-53.196-45.648C98.745,312.939,30,254.358,30,177.351c0-31.83,10.605-61.394,29.862-83.245    C79.34,72.007,106.379,59.836,136,59.836c41.129,0,67.716,25.338,82.776,46.594c13.509,19.064,20.558,38.282,22.962,45.659    c2.011,6.175,7.768,10.354,14.262,10.354c6.494,0,12.251-4.179,14.262-10.354c2.404-7.377,9.453-26.595,22.962-45.66    c15.06-21.255,41.647-46.593,82.776-46.593c29.621,0,56.66,12.171,76.137,34.27C471.395,115.957,482,145.521,482,177.351    C482,254.358,413.255,312.939,309.193,401.614z" fill="#000000" data-original="#000000" class=""></path>
+                                    </g>
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="assets/img/accessory3.png" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Angel</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$13.15</span>
+                        <a href="#" class="button accessory__button">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="22px" height="22px" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M474.644,74.27C449.391,45.616,414.358,29.836,376,29.836c-53.948,0-88.103,32.22-107.255,59.25    c-4.969,7.014-9.196,14.047-12.745,20.665c-3.549-6.618-7.775-13.651-12.745-20.665c-19.152-27.03-53.307-59.25-107.255-59.25    c-38.358,0-73.391,15.781-98.645,44.435C13.267,101.605,0,138.213,0,177.351c0,42.603,16.633,82.228,52.345,124.7    c31.917,37.96,77.834,77.088,131.005,122.397c19.813,16.884,40.302,34.344,62.115,53.429l0.655,0.574    c2.828,2.476,6.354,3.713,9.88,3.713s7.052-1.238,9.88-3.713l0.655-0.574c21.813-19.085,42.302-36.544,62.118-53.431    c53.168-45.306,99.085-84.434,131.002-122.395C495.367,259.578,512,219.954,512,177.351    C512,138.213,498.733,101.605,474.644,74.27z M309.193,401.614c-17.08,14.554-34.658,29.533-53.193,45.646    c-18.534-16.111-36.113-31.091-53.196-45.648C98.745,312.939,30,254.358,30,177.351c0-31.83,10.605-61.394,29.862-83.245    C79.34,72.007,106.379,59.836,136,59.836c41.129,0,67.716,25.338,82.776,46.594c13.509,19.064,20.558,38.282,22.962,45.659    c2.011,6.175,7.768,10.354,14.262,10.354c6.494,0,12.251-4.179,14.262-10.354c2.404-7.377,9.453-26.595,22.962-45.66    c15.06-21.255,41.647-46.593,82.776-46.593c29.621,0,56.66,12.171,76.137,34.27C471.395,115.957,482,145.521,482,177.351    C482,254.358,413.255,312.939,309.193,401.614z" fill="#000000" data-original="#000000" class=""></path>
+                                    </g>
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="assets/img/accessory4.png" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Sphere</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$4.25</span>
+                        <a href="#" class="button accessory__button">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="22px" height="22px" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M474.644,74.27C449.391,45.616,414.358,29.836,376,29.836c-53.948,0-88.103,32.22-107.255,59.25    c-4.969,7.014-9.196,14.047-12.745,20.665c-3.549-6.618-7.775-13.651-12.745-20.665c-19.152-27.03-53.307-59.25-107.255-59.25    c-38.358,0-73.391,15.781-98.645,44.435C13.267,101.605,0,138.213,0,177.351c0,42.603,16.633,82.228,52.345,124.7    c31.917,37.96,77.834,77.088,131.005,122.397c19.813,16.884,40.302,34.344,62.115,53.429l0.655,0.574    c2.828,2.476,6.354,3.713,9.88,3.713s7.052-1.238,9.88-3.713l0.655-0.574c21.813-19.085,42.302-36.544,62.118-53.431    c53.168-45.306,99.085-84.434,131.002-122.395C495.367,259.578,512,219.954,512,177.351    C512,138.213,498.733,101.605,474.644,74.27z M309.193,401.614c-17.08,14.554-34.658,29.533-53.193,45.646    c-18.534-16.111-36.113-31.091-53.196-45.648C98.745,312.939,30,254.358,30,177.351c0-31.83,10.605-61.394,29.862-83.245    C79.34,72.007,106.379,59.836,136,59.836c41.129,0,67.716,25.338,82.776,46.594c13.509,19.064,20.558,38.282,22.962,45.659    c2.011,6.175,7.768,10.354,14.262,10.354c6.494,0,12.251-4.179,14.262-10.354c2.404-7.377,9.453-26.595,22.962-45.66    c15.06-21.255,41.647-46.593,82.776-46.593c29.621,0,56.66,12.171,76.137,34.27C471.395,115.957,482,145.521,482,177.351    C482,254.358,413.255,312.939,309.193,401.614z" fill="#000000" data-original="#000000" class=""></path>
+                                    </g>
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="assets/img/accessory5.png" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Surprise gift</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$7.99</span>
+                        <a href="#" class="button accessory__button">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="22px" height="22px" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M474.644,74.27C449.391,45.616,414.358,29.836,376,29.836c-53.948,0-88.103,32.22-107.255,59.25    c-4.969,7.014-9.196,14.047-12.745,20.665c-3.549-6.618-7.775-13.651-12.745-20.665c-19.152-27.03-53.307-59.25-107.255-59.25    c-38.358,0-73.391,15.781-98.645,44.435C13.267,101.605,0,138.213,0,177.351c0,42.603,16.633,82.228,52.345,124.7    c31.917,37.96,77.834,77.088,131.005,122.397c19.813,16.884,40.302,34.344,62.115,53.429l0.655,0.574    c2.828,2.476,6.354,3.713,9.88,3.713s7.052-1.238,9.88-3.713l0.655-0.574c21.813-19.085,42.302-36.544,62.118-53.431    c53.168-45.306,99.085-84.434,131.002-122.395C495.367,259.578,512,219.954,512,177.351    C512,138.213,498.733,101.605,474.644,74.27z M309.193,401.614c-17.08,14.554-34.658,29.533-53.193,45.646    c-18.534-16.111-36.113-31.091-53.196-45.648C98.745,312.939,30,254.358,30,177.351c0-31.83,10.605-61.394,29.862-83.245    C79.34,72.007,106.379,59.836,136,59.836c41.129,0,67.716,25.338,82.776,46.594c13.509,19.064,20.558,38.282,22.962,45.659    c2.011,6.175,7.768,10.354,14.262,10.354c6.494,0,12.251-4.179,14.262-10.354c2.404-7.377,9.453-26.595,22.962-45.66    c15.06-21.255,41.647-46.593,82.776-46.593c29.621,0,56.66,12.171,76.137,34.27C471.395,115.957,482,145.521,482,177.351    C482,254.358,413.255,312.939,309.193,401.614z" fill="#000000" data-original="#000000" class=""></path>
+                                    </g>
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                <g xmlns="http://www.w3.org/2000/svg">
+                                </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== SEND GIFT ==========-->
+            <section class="send section">
+                <div class="send__container bd-container bd-grid">
+                    <div class="send__content">
+                        <h2 class="section-title-center send__title">Send Gift Now</h2>
+                        <p class="send__description">Start giving away before the holidays are over. Write the home address of the person who will send the gift.</p>
+                        <form action="">
+                            <div class="send__direction">
+                                <input type="text" placeholder="House address" class="send__input">
+                                <a href="#" class="button">Send</a>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="send__img">
+                        <img src="assets/img/send.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section">
+            <div class="footer__container bd-container bd-grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        <a href="#" class="footer__logo">Christmas Gift</a>
+                    </h3>
+                    <p class="footer__description">I sent a gift and it gives <br> happiness</p>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Pricing </a></li>
+                        <li><a href="#" class="footer__link">Discounts</a></li>
+                        <li><a href="#" class="footer__link">Shipping mode</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Company</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">About us</a></li>
+                        <li><a href="#" class="footer__link">Our mision</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+                    <a href="#" class="footer__social">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="28px" height="28px" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path xmlns="http://www.w3.org/2000/svg" d="m512 256c0-141.4-114.6-256-256-256s-256 114.6-256 256 114.6 256 256 256c1.5 0 3 0 4.5-.1v-199.2h-55v-64.1h55v-47.2c0-54.7 33.4-84.5 82.2-84.5 23.4 0 43.5 1.7 49.3 2.5v57.2h-33.6c-26.5 0-31.7 12.6-31.7 31.1v40.8h63.5l-8.3 64.1h-55.2v189.5c107-30.7 185.3-129.2 185.3-246.1z" fill="#000000" data-original="#000000" class=""></path></g></svg>
+                    </a>
+                    <a href="#" class="footer__social">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="30px" height="30px" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path xmlns="http://www.w3.org/2000/svg" d="m256 31c-124.3 0-225 100.7-225 225s100.7 225 225 225 225-100.7 225-225-100.7-225-225-225zm100.3 173.1s7.3 66.6-45.3 116.5c-73.7 69.9-180 15.5-180 15.5 51.1.6 72.7-20.9 72.7-20.9-42-7.2-46.2-37.2-46.2-37.2 7.2 4.5 22.9 0 22.9 0-46.8-21.5-39.5-49.8-39.5-49.8 13.6 7.6 23.8 4.8 23.8 4.8-36.4-31.6-15.8-65.1-15.8-65.1 63.9 60.8 105 48.3 105 48.3-2.9-42.8 22.4-59.4 49.7-60.3 23-.8 36.2 15.2 36.2 15.2 17.7 1.5 34.3-10.3 34.3-10.3-1.5 14.3-20.9 26.4-20.9 26.4 10.1.9 27.7-4.6 27.7-4.6-9.1 16.7-24.6 21.5-24.6 21.5z" fill="#000000" data-original="#000000" class=""></path></g></svg>
+                    </a>
+                    <a href="#" class="footer__social">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="28px" height="28px" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1"><path d="m256 0c141.39 0 256 114.61 256 256s-114.61 256-256 256-256-114.61-256-256 114.61-256 256-256zm-53.56 126.87c-48.16 2.2-73.46 29.3-75.56 75.57-1.6 35.03-1.6 72.09 0 107.12 2.1 46.27 27.4 73.37 75.56 75.57 35.04 1.59 72.09 1.59 107.13 0 46.27-2.12 73.36-27.38 75.56-75.57 1.59-35.04 1.59-72.07 0-107.12-2.16-47.16-28.4-73.41-75.56-75.57-35.04-1.59-72.09-1.59-107.13 0zm106.06 23.39c34.99 1.59 51.66 18.25 53.24 53.25 1.58 34.3 1.58 70.68 0 104.98-1.63 36.01-19.16 51.7-53.24 53.25-34.32 1.57-70.67 1.57-104.99 0-34.09-1.55-51.61-17.24-53.25-53.25-1.57-34.3-1.57-70.68 0-104.98 1.55-34.1 17.25-51.61 53.25-53.25 34.32-1.57 70.67-1.57 104.99 0zm-52.5 149.04c-23.91 0-43.3-19.38-43.3-43.3.01-23.92 19.39-43.3 43.3-43.3 23.92 0 43.31 19.38 43.31 43.3 0 23.91-19.39 43.3-43.31 43.3zm0-110.01c-36.83 0-66.71 29.87-66.71 66.71s29.87 66.71 66.71 66.71c36.85 0 66.71-29.87 66.71-66.71s-29.86-66.71-66.71-66.71zm84.94-2.64c0 8.61-6.98 15.6-15.59 15.6-8.62 0-15.59-6.98-15.59-15.59s6.97-15.59 15.59-15.59c8.61 0 15.59 6.98 15.59 15.58z" fill="#000000" data-original="#000000" class=""></path></g></g></svg>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2021 Bedimcode. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/scrollreveal.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
